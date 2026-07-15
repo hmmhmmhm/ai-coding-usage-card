@@ -118,7 +118,7 @@ A scheduler (Task Scheduler / cron / launchd) runs the script once a day. Each r
 
 1. `usage-card.mjs` 받기 → 상단 CONFIG에서 `repo`를 `본인아이디/본인아이디`로 수정
 2. `node usage-card.mjs` 한 번 실행해 테스트
-3. 프로필 README에 `<img width="100%" src="https://raw.githubusercontent.com/아이디/아이디/main/cards/ai-usage.svg" />` 삽입
+3. 프로필 README에 `<img width="100%" src="https://raw.githubusercontent.com/아이디/아이디/main/cards/ai-usage-full.svg" />` 삽입 (4종 중 원하는 파일명으로)
 4. 작업 스케줄러(위 VBS 래퍼) 또는 cron으로 매일 실행 등록
 
 전제 조건은 Node 18+, `gh auth login` 완료된 GitHub CLI뿐입니다.
